@@ -33,7 +33,7 @@ ContentAreaContainer.Category = styled.h1`
   display: flex;
   align-items: center;
   text-align: center;
-  display: inline-block; 
+  display: inline-block;
   padding: 25px;
   line-height: 1;
   border-radius: 4px;
@@ -46,6 +46,12 @@ ContentAreaContainer.Category = styled.h1`
 `;
 
 ContentAreaContainer.Description = styled.p`
+  @media (min-width: 801px){
+    padding-right: 35px;
+    font-size: 18px;
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
   @media (max-width: 800px) {
     display: none;
   }
@@ -53,11 +59,17 @@ ContentAreaContainer.Description = styled.p`
 
 ContentAreaContainer.Title = styled.h2`
   font-style: normal;
-  font-weight: 300;
+  font-weight: 700;
   font-size: 40px;
   line-height: 1;
   margin-top: 0;
   margin-bottom: 32px;
+  border-left: solid 12px #f4a63d;
+  padding-left: 20px;
+  color: #fff;
+  line-height: 1.15;
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
+  padding-right: 10px;
 
   @media (max-width: 800px) {
     font-size: 32px;
@@ -69,7 +81,7 @@ export const BannerMainContainer = styled.section`
   height: 80vh;
   position: relative;
   color: #fff;
-  background-image: ${({ backgroundImage }) => `url(${backgroundImage})`}; 
+  background-image: ${({ backgroundImage }) => `url(${backgroundImage})`};
   background-size: cover;
   background-position: center;
   @media (max-width: 800px) {

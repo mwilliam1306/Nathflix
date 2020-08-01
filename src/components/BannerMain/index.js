@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import VideoIframeResponsive from './components/VideoIframeResponsive';
 import { BannerMainContainer, ContentAreaContainer, WatchButton } from './styles';
 
@@ -16,7 +17,8 @@ export default function BannerMain({
   url,
 }) {
   const youTubeID = getYouTubeId(url);
-  const bgUrl = `https://img.youtube.com/vi/${youTubeID}/maxresdefault.jpg`;
+  // const bgUrl = `https://img.youtube.com/vi/${youTubeID}/maxresdefault.jpg`;
+  const bgUrl = 'https://i2.wp.com/mepoupenaweb.uol.com.br/wp-content/uploads/2018/07/nath_site.png?fit=1220%2C650&ssl=1';
 
   return (
     <BannerMainContainer backgroundImage={bgUrl}>
@@ -43,3 +45,9 @@ export default function BannerMain({
     </BannerMainContainer>
   );
 }
+
+BannerMain.propTypes = {
+  videoTitle: PropTypes.string.isRequired,
+  videoDescription: PropTypes.string.isRequired,
+  url: PropTypes.string.isRequired,
+};
