@@ -17,7 +17,7 @@ function Menu() {
   const scrollDown = useScrollHandler();
 
   return (
-    <Nav className="Menu" scrollDown={scrollDown}>
+    <Nav className="Menu" scrollDown={window.location.pathname === '/' && scrollDown}>
       <Link to="/">
         <img className="Logo" src={Logo} alt="logo" />
       </Link>
