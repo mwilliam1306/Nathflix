@@ -1,181 +1,194 @@
 {
   "categorias": [
     {
+      "id": 1,
       "titulo": "NATH, ME AJUDA!",
-      "link": "https://www.alura.com.br/formacao-front-end",
       "cor": "#6BD1FF",
       "link_extra": {
-        "text": " ",
+        "text": "Formação de Front End na Alura",
         "url": "https://www.youtube.com/playlist?list=PL5vSn8ej1b0v3uWfvH4ksqooiMfqH6d_F"
-      },
-      "videos": [
-        {
-          "titulo": "Canal de finanças mais rico do Brasil",
-          "url": "https://www.youtube.com/watch?v=fqRya5IPwrU"
-        },
-        {
-          "titulo": "COMO COMEÇAR A INVESTIR?",
-          "url": "https://www.youtube.com/watch?v=H-UyKqs2qBU"
-        },
-        {
-          "titulo": "DÍVIDAS: QUITA, NEGOCIA OU DEIXA DE PAGAR?",
-          "url": "https://www.youtube.com/watch?v=ZlOqO-xdCxw"
-        },
-        {
-          "titulo": "Como fazer dinheiro na Pandemia?",
-          "url": "https://www.youtube.com/watch?v=LOZdmTJCGqk"
-        },
-        {
-          "titulo": "AS PIORES DÚVIDAS DA QUARENTENA! A última é a pior de todas!",
-          "url": "https://www.youtube.com/watch?v=G8xtQRAsMVo"
-        },
-        {
-          "titulo": "COMO ELIMINAR GASTOS DESNECESSÁRIOS?",
-          "url": "https://www.youtube.com/watch?v=WvNcL-HpQik"
-        },
-        {
-          "titulo": "AS SUAS DÚVIDAS SOBRE AÇÕES RESPONDIDAS AQUI!",
-          "url": "https://www.youtube.com/watch?v=_Erqy3QH7NQ"
-        }
-      ]
+      }
     },
     {
-      "titulo": "Back End",
+      "id": 2,
+      "titulo": "COMO FAZER RENDA EXTRA #TEVIRALINDA ",
       "cor": "#00C86F",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
-      },
-      "videos": [
-        {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
-        },
-        {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
-        },
-        {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
-        },
-        {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
-        },
-        {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
-        }
-      ]
+        "text": "",
+        "url": ""
+      }
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
+      "id": 3,
+      "titulo": "PARA SOBRAR DINHEIRO AGORA!",
       "cor": "#9cd33b",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
-      },
-      "videos": [
-        {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
-        },
-        {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
-        },
-        {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
-        },
-        {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
-        }
-      ]
+        "text": "",
+        "url": ""
+      }
     },
     {
+      "id": 4,
       "titulo": "Filmes",
-      "cor": "orange",
-      "videos": [
-        {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
-        },
-        {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
-        },
-        {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
-        },
-        {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
-        }
-      ]
+      "cor": "orange"
     },
     {
-      "titulo": "Games",
+      "id": 5,
+      "titulo": "Gamess",
       "cor": "red",
       "link_extra": {
         "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
-      },
-      "videos": [
-        {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
-        },
-        {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
-        },
-        {
-          "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
-        },
-        {
-          "titulo": "Resident Evil 8",
-          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
-        },
-        {
-          "titulo": "Pokémon Let's Go Pikachu/Eevee",
-          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
-        }
-      ]
+        "url": "https://www.alura.com.br/cursos-online-front-end"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Canal de finanças mais rico do Brasil",
+      "description": "Sobra mês no fim do salário? Você quer saber como fazer renda extra? Quer começar a investir, mas não sabe por onde começar? Tem dívidas e quer sair dessa situação? Inscreva-se no Me Poupe!",
+      "url": "https://www.youtube.com/watch?v=fqRya5IPwrU"
     },
     {
-      "titulo": "Aprendendo a aprender tecnologia",
-      "cor": "#6b5be2",
-      "link_extra": {
-        "text": "Curso sobre aprendizado na Alura",
-        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
-      },
-      "videos": [
-        {
-          "titulo": "Como estudar melhor?",
-          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
-        },
-        {
-          "titulo": "Faculdade",
-          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
-        },
-        {
-          "titulo": "Frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-        },
-        {
-          "titulo": "A mágica do Aprendizado",
-          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
-        },
-        {
-          "titulo": "Como aprender a programar?",
-          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
-        }
-      ]
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "COMO COMEÇAR A INVESTIR?",
+      "url": "https://www.youtube.com/watch?v=H-UyKqs2qBU"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "DÍVIDAS: QUITA, NEGOCIA OU DEIXA DE PAGAR?",
+      "url": "https://www.youtube.com/watch?v=ZlOqO-xdCxw"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Como fazer dinheiro na Pandemia?",
+      "url": "https://www.youtube.com/watch?v=LOZdmTJCGqk"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "AS PIORES DÚVIDAS DA QUARENTENA! A última é a pior de todas!",
+      "url": "https://www.youtube.com/watch?v=G8xtQRAsMVo"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "COMO ELIMINAR GASTOS DESNECESSÁRIOS?",
+      "url": "https://www.youtube.com/watch?v=WvNcL-HpQik"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "AS SUAS DÚVIDAS SOBRE AÇÕES RESPONDIDAS AQUI!",
+      "url": "https://www.youtube.com/watch?v=_Erqy3QH7NQ"
+    },
+    {
+      "id": 8,
+      "categoriaId": 2,
+      "titulo": "O que VOCÊ PODE FAZER pra REINVENTAR O JEITO DE FAZER RENDA EXTRA?",
+      "url": "https://www.youtube.com/watch?v=oNgSeU_f7nA&list=PL5vSn8ej1b0uRVpbmS7CBMsijnXm4jq2M&index=3"
+
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "Plataformas digitais pra VOCÊ GANHAR DINHEIRO em casa!",
+            "url": "https://www.youtube.com/watch?v=Ne1GQveer_E&list=PL5vSn8ej1b0uRVpbmS7CBMsijnXm4jq2M&index=4"
+
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "DICAS PRÁTICAS PRA GANHAR DINHEIRO E CONSEGUIR CLIENTES AGORA! Feat. Ana Tex",
+            "url": "https://www.youtube.com/watch?v=Q84huODchXU&list=PL5vSn8ej1b0uRVpbmS7CBMsijnXm4jq2M&index=5"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "COMO FAZER RENDA EXTRA NO NATAL!? Quanto será que a Bruna faturou? ",
+      "url": "hhttps://www.youtube.com/watch?v=Ej5Nsi40JlQ&list=PL5vSn8ej1b0uRVpbmS7CBMsijnXm4jq2M&index=8"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "OS SEGREDOS DA RENDA EXTRA COM A VOVÓ JANETE! A Bruna foi vender na feira!",
+      "url": "https://www.youtube.com/watch?v=NeovQPIKCME&list=PL5vSn8ej1b0uRVpbmS7CBMsijnXm4jq2M&index=7"
+    },
+    {
+      "id": 13,
+      "categoriaId": 3,
+      "titulo": "5 Caminhos POSSÍVEIS pra quem PERDEU O EMPREGO na pandemia!",
+      "url": "https://www.youtube.com/watch?v=ucGORMF-Aro&list=PL5vSn8ej1b0tOXek4BZv-mQ09C8BqOQs9&index=2&t=0s"
+    },
+    {
+      "id": 14,
+      "categoriaId": 3,
+      "titulo": "Como GANHAR DINHEIRO com o WhatsApp e o Instagram? Passo a passo pra você usar direito!",
+      "url": "https://www.youtube.com/watch?v=iuB5B1SXaH4&list=PL5vSn8ej1b0tOXek4BZv-mQ09C8BqOQs9&index=2"
+    },
+    {
+      "id": 15,
+      "categoriaId": 3,
+      "titulo": "COMO eu ganhei R$45 MIL EM TRÊS HORAS: a compra do meu apartamento à vista",
+      "url": "https://www.youtube.com/watch?v=t7n7Kn7ujh4&list=PL5vSn8ej1b0tOXek4BZv-mQ09C8BqOQs9&index=3"
+    },
+    {
+      "id": 16,
+      "categoriaId": 3,
+      "titulo": "10 DICAS PRA ECONOMIZAR MUITO MAIS no supermercado!",
+      "url": "https://www.youtube.com/watch?v=dkQNvaRZyKs&list=PL5vSn8ej1b0tOXek4BZv-mQ09C8BqOQs9&index=4"
+    },
+    {
+      "id": 17,
+      "categoriaId": 4,
+      "titulo": "Interestellar",
+      "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+    },
+    {
+      "id": 18,
+      "categoriaId": 4,
+      "titulo": "Gattaca",
+      "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+    },
+    {
+      "id": 19,
+      "categoriaId": 4,
+      "titulo": "A Chegada",
+      "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+    },
+    {
+      "id": 20,
+      "categoriaId": 4,
+      "titulo": "Feitiço do Tempo",
+      "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+    },
+    {
+      "id": 21,
+      "categoriaId": 5,
+      "titulo": "Final Fantasy 7",
+      "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+    },
+    {
+      "id": 22,
+      "categoriaId": 5,
+      "titulo": "Assassins Creed Valhalla",
+      "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+    },
+    {
+      "id": 23,
+      "categoriaId": 5,
+      "titulo": "God of War 4",
+      "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+    },
+    {
+      "id": 24,
+      "categoriaId": 5,
+      "titulo": "Resident Evil 8",
+      "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
     }
   ]
 }
