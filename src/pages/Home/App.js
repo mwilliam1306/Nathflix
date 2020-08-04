@@ -8,6 +8,12 @@ import categoriasRepository from '../../repositories/categorias';
 
 function Home() {
   const [dadosIniciais, setDadosIniciais] = useState([]);
+  const [loadBalance, setLoadBalance] = useState([true]);
+
+  useEffect(() => {
+    const timer = setTimeout(() => dadosIniciais.length === 0 && setLoadBalance(false), 1000);
+    return () => clearTimeout(timer);
+  }, []);
 
   useEffect(() => {
     categoriasRepository.getAllWithVideos()
@@ -21,7 +27,7 @@ function Home() {
 
   return (
     <PageDefault paddingAll={0}>
-      {dadosIniciais.length === 0 && (<Loading />)}
+      { loadBalance && (<Loading />)}
 
       {dadosIniciais.map((categoria, indice) => {
         if (indice === 0) {
@@ -47,38 +53,6 @@ function Home() {
           />
         );
       })}
-
-      {/* <BannerMain
-        videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
-        url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription="Sobra mês no fim do salário? Você quer saber como fazer renda extra? Quer começar a investir, mas não sabe por onde começar? Tem dívidas e quer sair dessa situação? Inscreva-se no Me Poupe!"
-      />
-
-      <Carousel
-        ignoreFirstVideo
-        category={dadosIniciais.categorias[0]}
-      />
-
-      <Carousel
-        category={dadosIniciais.categorias[1]}
-      />
-
-      <Carousel
-        category={dadosIniciais.categorias[2]}
-      />
-
-      <Carousel
-        category={dadosIniciais.categorias[3]}
-      />
-
-      <Carousel
-        category={dadosIniciais.categorias[4]}
-      />
-
-      <Carousel
-        category={dadosIniciais.categorias[5]}
-      /> */}
-
     </PageDefault>
   );
 }
