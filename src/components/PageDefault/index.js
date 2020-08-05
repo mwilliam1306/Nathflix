@@ -16,7 +16,7 @@ const Main = styled.main`
   `}
 `;
 
-function PageDefault({ children, paddingAll, dadosCarregados }) {
+function PageDefault({ children, paddingAll }) {
   return (
     <>
       <Menu />
@@ -34,6 +34,6 @@ PageDefault.defaultProps = {
 
 PageDefault.propTypes = {
   children: PropType.node.isRequired,
-  paddingAll: PropType.string,
+  paddingAll: PropType.number,
 };
 export default PageDefault;
