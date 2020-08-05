@@ -29,17 +29,13 @@
     },
     {
       "id": 4,
-      "titulo": "Filmes",
+      "titulo": "AÇÕES E FUNDOS DO JEITO MAIS SIMPLES POSSÍVEL PARA 2020",
       "cor": "orange"
     },
     {
       "id": 5,
-      "titulo": "Gamess",
-      "cor": "red",
-      "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
-      }
+      "titulo": "OS PREFERIDOS DOS MEPOUPLAYERS!",
+      "cor": "red"
     }
   ],
   "videos": [
@@ -143,50 +139,50 @@
     {
       "id": 17,
       "categoriaId": 4,
-      "titulo": "Interestellar",
-      "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+      "titulo": "TOP 5 AÇÕES QUE MAIS VALORIZARAM NA QUARENTENA!",
+      "url": "https://www.youtube.com/watch?v=Qm25cdjSqA0&list=PL5vSn8ej1b0teCfofZvnt3Qv9HVSIBeT_&index=2"
     },
     {
       "id": 18,
       "categoriaId": 4,
-      "titulo": "Gattaca",
-      "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+      "titulo": "5 PASSOS PRA INVESTIR EM AÇÕES! Entrar agora na Bolsa ou esperar?",
+      "url": "https://www.youtube.com/watch?v=F53-_i9fr-0&list=PL5vSn8ej1b0teCfofZvnt3Qv9HVSIBeT_&index=3"
     },
     {
       "id": 19,
       "categoriaId": 4,
-      "titulo": "A Chegada",
-      "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+      "titulo": "COMO GANHAR DINHEIRO COM AÇÕES? APENAS PARA INICIANTES ",
+      "url": "https://www.youtube.com/watch?v=0xsFhL9sXxo&list=PL5vSn8ej1b0teCfofZvnt3Qv9HVSIBeT_&index=4"
     },
     {
       "id": 20,
       "categoriaId": 4,
-      "titulo": "Feitiço do Tempo",
-      "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+      "titulo": "6 FUNDOS A PARTIR DE 100 REAIS! (com rendimento de mais de 100%)",
+      "url": "https://www.youtube.com/watch?v=pilV5xlLwHk&list=PL5vSn8ej1b0teCfofZvnt3Qv9HVSIBeT_&index=9"
     },
     {
       "id": 21,
       "categoriaId": 5,
-      "titulo": "Final Fantasy 7",
-      "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+      "titulo": "ALUGAR É MELHOR DO QUE FINANCIAR SE...Esse simulador DEU A RESPOSTA!",
+      "url": "https://www.youtube.com/watch?v=_mR2FW1oB-I&list=PL5vSn8ej1b0tg0QHR0BRSKWSyssxfCw9s&index=2&t=0s"
     },
     {
       "id": 22,
       "categoriaId": 5,
-      "titulo": "Assassins Creed Valhalla",
-      "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+      "titulo": "COMO GANHEI 2 MIL REAIS EM UM DIA! (Sem trabalhar)",
+      "url": "https://www.youtube.com/watch?v=hgrVDCrseic&list=PL5vSn8ej1b0tg0QHR0BRSKWSyssxfCw9s&index=2"
     },
     {
       "id": 23,
       "categoriaId": 5,
-      "titulo": "God of War 4",
-      "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+      "titulo": "DÁ PRA CASAR COM R$ 2 MIL? Como ECONOMIZAR e como FAZER RENDA EXTRA com casamentos?",
+      "url": "https://www.youtube.com/watch?v=P4snfCtWhfc&list=PL5vSn8ej1b0tg0QHR0BRSKWSyssxfCw9s&index=3"
     },
     {
       "id": 24,
       "categoriaId": 5,
-      "titulo": "Resident Evil 8",
-      "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+      "titulo": "4 investimentos QUE NÃO SÃO INVESTIMENTOS! É furada, mas o gerente do banco não te conta.",
+      "url": "https://www.youtube.com/watch?v=8ZUJn0OGkZ8&list=PL5vSn8ej1b0tg0QHR0BRSKWSyssxfCw9s&index=4"
     }
   ]
 }
