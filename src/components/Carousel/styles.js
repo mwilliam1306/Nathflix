@@ -2,15 +2,19 @@ import styled from 'styled-components';
 
 export const Title = styled.h3`
   font-style: normal;
-  font-weight: normal;
-  font-size: 35px;
+  font-weight: 900;
+  /* font-size: 35px; */
+  font-size: 1.2em;
   line-height: 1;
   margin-bottom: 16px;
   display: inline-block;
   padding: 20px;
-  background: red;
   line-height: 1;
   border-radius: 4px;
+  border-bottom: 2px solid #f4a63d;
+  color: #fff;
+  background: #392875;
+
 
   @media (max-width: 800px) {
     font-size: 18px;
@@ -41,7 +45,7 @@ export const VideoCardList = styled.ul`
   display: flex;
   overflow-x: auto;
   flex-direction: row;
-  
+
   li {
     margin-right: 16px;
   }
