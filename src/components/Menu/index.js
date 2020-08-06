@@ -8,7 +8,7 @@ import useScrollHandler from '../Utils/UseScroll';
 
 const Nav = styled.nav`
   background: ${({ scrollDown }) => `${scrollDown ? 'transparent' : 'var(--black)'}`};
-  transition: 0.15s;
+  transition: .3s;
 `;
 
 function Menu() {
